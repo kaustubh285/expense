@@ -1,0 +1,40 @@
+.loginPage {
+  padding: 10px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 89vh;
+}
+
+.loginPage__top {
+  margin: 50px 0px;
+}
+.loginPage__topTitle {
+  font-size: 50px;
+}
+.loginPage__middle {
+  flex: 0.2;
+}
+
+.loginPage__bottom {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0px;
+}
+
+.loginPage__bottomCloud {
+  padding: 0px;
+  position: absolute !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .loginPage {
+    overflow: hidden !important;
+    height: 88vh;
+  }
+}
