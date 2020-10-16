@@ -24,10 +24,13 @@ function Navbar() {
       <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
         <div className='navbar-nav'>
           <a className='nav-item nav-link active' href='/'>
-            Report <span className='sr-only'>(current)</span>
+            Reports <span className='sr-only'>(current)</span>
           </a>
           <a className='nav-item nav-link' href='/'>
             Main Expenses
+          </a>
+          <a className='nav-item nav-link' href='/'>
+            Logout
           </a>
         </div>
       </div>
